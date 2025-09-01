@@ -1,0 +1,43 @@
+.home-hero {
+  display: flex;
+  max-height: 350px;
+  min-height: 300px;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, hsla(256, 68.54%, 40.35%, 0.50), hsla(276, 68.54%, 11.47%, 1.00)), url("https://cdn.prod.website-files.com/68b3d8b676a5b0a46cf47b10/68b502f0d724ba6daa0adc29_new-year-background-3608029_1280.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+
+  color: white;
+
+  height: calc(100vh/2.5);
+}
+
+.container {
+  display: flex;
+  max-width: 1300px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.search {
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: baseline;
+
+  border-radius: 30px;
+
+  font-size: 1.1em;
+  line-height: 1em;
+}
+
+.search-input {
+  margin-bottom: 0px;
+}
